@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".Book_slot">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Book Now"
+        android:textStyle="bold"
+        android:background="#ffffff"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="2dp"
+        android:padding="20dp"
+        android:textColor="#4BAD96"
+        android:textSize="28dp"
+        />
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="15dp"
+       android:background="#ffffff"
+       android:layout_marginTop="150dp"
+       android:layout_marginRight="15dp"
+       android:orientation="vertical">
+
+
+       <android.support.design.widget.TextInputLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <android.support.design.widget.TextInputEditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="Slot Number"
+               android:textSize="14dp"
+               android:id="@+id/book_slot_number"
+               android:inputType="text"
+               />
+       </android.support.design.widget.TextInputLayout>
+
+
+
+       <android.support.design.widget.TextInputLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <android.support.design.widget.TextInputEditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="Username"
+               android:textSize="14dp"
+               android:id="@+id/book_username"
+               android:inputType="text"
+               />
+       </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <android.support.design.widget.TextInputLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <android.support.design.widget.TextInputEditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="Balance"
+               android:textSize="14dp"
+               android:id="@+id/user_balance"
+               android:inputType="numberDecimal"
+               />
+       </android.support.design.widget.TextInputLayout>
+
+
+
+
+       <android.support.design.widget.TextInputLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <android.support.design.widget.TextInputEditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="Vechle Registration No"
+               android:textSize="14dp"
+               android:id="@+id/book_veichle"
+               android:inputType="text"
+               />
+       </android.support.design.widget.TextInputLayout>
+
+
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="2dp"
+           android:layout_marginBottom="2dp"
+           android:orientation="horizontal">
+
+
+           <android.support.design.widget.TextInputLayout
+               android:layout_width="150dp"
+               android:layout_height="wrap_content">
+
+               <android.support.design.widget.TextInputEditText
+                   android:id="@+id/book_date"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:drawableRight="@drawable/calendar_25"
+                   android:hint="Select Date"
+                   android:inputType="date"
+                   android:textSize="14dp" />
+           </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+
+           <android.support.design.widget.TextInputLayout
+               android:layout_width="match_parent"
+               android:layout_marginLeft="20dp"
+               android:layout_height="wrap_content">
+               <android.support.design.widget.TextInputEditText
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:hint="Arrival Time"
+                   android:textSize="14dp"
+                   android:drawableRight="@drawable/time_30"
+                   android:id="@+id/arrival_time"
+                   android:inputType="time"
+                   />
+           </android.support.design.widget.TextInputLayout>
+
+       </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+           android:text="Book"
+           android:id="@+id/btn_book"
+           android:textColor="#ffffff"
+           android:background="#008263"
+           android:padding="10dp"
+           android:layout_marginTop="15dp"
+           android:layout_marginBottom="5dp"
+           android:textSize="10dp"
+
+           />
+   </LinearLayout>
+
+</FrameLayout>

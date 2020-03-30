@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/empty_slots"
+            android:icon="@drawable/search_30"
+            android:title="Find Empty Slot" />
+        <item
+            android:id="@+id/my_slots"
+            android:icon="@drawable/carpark_30"
+            android:title="My Slots" />
+
+        <item
+            android:id="@+id/nav_continueBook"
+            android:icon="@drawable/machine_30"
+            android:title="Continue" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/machine_30"
+            android:title="Booking History" />
+        <item
+            android:id="@+id/nav_balance"
+            android:icon="@drawable/transaction_30"
+            android:title="Balance" />
+
+        <item
+            android:id="@+id/editAccount"
+            android:icon="@drawable/edit_30"
+            android:title="Edit Profile" />
+        <item
+            android:id="@+id/findslote"
+            android:icon="@drawable/ic_find2"
+            android:title="Edit Profile" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/phone_call"
+                android:title="Contact Us" />
+        </menu>
+
+    </item>
+
+</menu>

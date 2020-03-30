@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyBookings">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="70dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="My Bookings"
+            android:textColor="#008263"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="30dp"
+            android:paddingLeft="10dp"
+            android:textSize="42dp"
+            android:textStyle="bold"
+
+            />
+
+
+        <ListView
+            android:id="@+id/listMyslots"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scrollbarSize="3dp"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollbars="vertical"
+            android:scrollingCache="true"
+            android:smoothScrollbar="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp">
+        </ListView>
+
+
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

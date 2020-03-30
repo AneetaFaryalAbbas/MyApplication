@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    tools:context=".All_slots">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Select Slot"
+        android:padding="16dp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+
+               <ImageButton
+                   android:layout_width="80dp"
+                   android:layout_height="70dp"
+                   android:background="@drawable/carparkingfill"
+                   android:scaleType="fitXY"
+                   android:id="@+id/sbtn1"/>
+
+
+               <ImageButton
+                   android:layout_width="80dp"
+                   android:layout_height="70dp"
+                   android:scaleType="fitXY"
+                   android:layout_marginLeft="200dp"
+                   android:background="@drawable/carparkingfill"
+                   android:id="@+id/sbtn2"/>
+
+           </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:scaleType="fitXY"
+                android:background="@drawable/carparkingfill"
+
+                android:id="@+id/sbtn3"/>
+
+
+            <ImageButton
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="200dp"
+                android:background="@drawable/carparkingfill"
+                android:id="@+id/sbtn4"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:scaleType="fitXY"
+                android:background="@drawable/carparkingfill"
+
+                android:id="@+id/sbtn5"/>
+
+            <ImageButton
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="200dp"
+                android:background="@drawable/carparkingfill"
+                android:id="@+id/sbtn6"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:scaleType="fitXY"
+                android:background="@drawable/carparkingfill"
+
+                android:id="@+id/sbtn7"/>
+
+
+            <ImageButton
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="200dp"
+                android:background="@drawable/carparkingfill"
+
+                android:id="@+id/sbtn8"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:scaleType="fitXY"
+                android:background="@drawable/carparkingfill"
+
+                android:id="@+id/sbtn9"/>
+
+
+            <ImageButton
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="200dp"
+                android:background="@drawable/carparkingfill"
+
+                android:id="@+id/sbtn10"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:scaleType="fitXY"
+                android:background="@drawable/carparkingfill"
+
+                android:id="@+id/sbtn11"/>
+
+
+            <ImageButton
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="200dp"
+                android:background="@drawable/carparkingfill"
+
+                android:id="@+id/sbtn12"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:scaleType="fitXY"
+                android:background="@drawable/carparkingfill"
+
+                android:id="@+id/sbtn13"/>
+
+
+            <ImageButton
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="200dp"
+                android:background="@drawable/carparkingfill"
+
+                android:id="@+id/sbtn14"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:layout_width="110dp"
+                android:layout_height="70dp"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/carparkingfill"
+                android:id="@+id/sbtn15"/>
+
+
+            <ImageButton
+                android:layout_width="110dp"
+                android:layout_height="70dp"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/carparkingfill"
+
+                android:id="@+id/sbtn16"/>
+
+
+            <ImageButton
+                android:layout_width="110dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="10dp"
+                android:scaleType="fitXY"
+                android:background="@drawable/carparkingfill"
+                android:id="@+id/sbtn17"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

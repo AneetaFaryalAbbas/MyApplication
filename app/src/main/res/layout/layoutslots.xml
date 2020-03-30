@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Booking ID"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/layout_slotNo"
+            android:padding="3dp"
+            android:textColor="#000"
+            android:textSize="14dp"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:padding="3dp"
+            android:id="@+id/layout_date"
+            android:textColor="#000"
+            android:textSize="14dp"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Arrival Time"
+            android:padding="3dp"
+            android:id="@+id/layout_arrialTime"
+            android:textColor="#000"
+            android:textSize="14dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Depart Time"
+            android:padding="3dp"
+            android:id="@+id/layout_DeptrTime"
+            android:textColor="#000"
+            android:layout_marginRight="10dp"
+            android:textSize="14dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="UserName"
+            android:id="@+id/layout_username"
+            android:padding="3dp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:textSize="12dp"
+            />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Veichle No"
+            android:padding="3dp"
+            android:id="@+id/layout_vechleNo"
+            android:textColor="#000"
+            android:textSize="12dp"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:padding="3dp"
+            android:id="@+id/layout_status"
+            android:textColor="#000"
+            android:textSize="12dp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    tools:context=".UpdateAccount">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Edit Account"
+        android:textStyle="bold"
+        android:background="#fff"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="2dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="15dp"
+        android:textColor="#008263"
+        android:textSize="28dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/up_Ac_AccountNo"
+                android:layout_height="wrap_content"
+                android:hint="ID"
+                android:textSize="14dp"
+                android:inputType="number"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/up_Ac_username"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:textSize="14dp"
+                android:inputType="text"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/up_Ac_password"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:textSize="14dp"
+                android:inputType="textPassword"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/up_Ac_CnicNo"
+                android:layout_height="wrap_content"
+                android:hint="CNIC No"
+                android:textSize="14dp"
+                android:inputType="number"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/up_Ac_license"
+                android:layout_height="wrap_content"
+                android:hint="License No"
+                android:textSize="14dp"
+                android:inputType="text"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/up_Ac_contactNo"
+                android:layout_height="wrap_content"
+                android:hint="Contact No"
+                android:textSize="14dp"
+                android:inputType="phone"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/up_Ac_address"
+                android:layout_height="wrap_content"
+                android:hint="Address"
+                android:textSize="14dp"
+                android:inputType="text" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_update_account"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="50dp"
+            android:textSize="10dp"
+            android:background="#008263"
+            android:text="Update Account"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</FrameLayout>

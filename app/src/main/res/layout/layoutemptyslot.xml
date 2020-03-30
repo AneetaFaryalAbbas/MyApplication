@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:text="Slot"
+        android:id="@+id/layout_empty_slot_id"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:textColor="#000"
+        android:textSize="14dp"
+        />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text="Title"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:id="@+id/layout_empty_slot_title"
+        android:textColor="#000"
+        android:textSize="14dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Book Now"
+        android:paddingLeft="20dp"
+        android:paddingTop="3dp"
+        android:layout_marginRight="15dp"
+        android:textAlignment="textEnd"
+        android:id="@+id/layout_status"
+        android:textColor="#800000"
+        android:textSize="14dp"
+        />
+
+</LinearLayout>
